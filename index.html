@@ -1,297 +1,139 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset='utf-8'>
-<link rel="stylesheet" type="text/css"
-href="/assets/css/straybirds.css" media="screen" />
-<link rel="stylesheet" type="text/css"
-href="/assets/css/pygments.css" media="screen" />
-<!-- MathJax Section Start -->
-<script type="text/javascript"
-src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
-<script>
-MathJax.Hub.Config({
-tex2jax: {
-skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
-}
-});
-MathJax.Hub.Queue(function() {
-var all = MathJax.Hub.getAllJax(), i;
-for(i=0; i < all.length; i += 1) {
-all[i].SourceElement().parentNode.className += ' has-jax';
-}
-});
-</script>
-<!-- MathJax Section End -->
-<!-- Google Analytics Start-->
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-ga('create', 'UA-48100787-1', 'minixalpha.github.io');
-ga('send', 'pageview');
-</script>
-<!-- Google Analytics End -->
-<title>首页</title>
+ 
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Your awesome title</title>
+  <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://yourdomain.com/">
+  <link rel="alternate" type="application/rss+xml" title="Your awesome title" href="http://yourdomain.com/feed.xml" />
 </head>
-<body>
-<div class="container">
-<header>
-<div class="container">
-<h1>
-<a href="/" title="Home Page"> 潇湘夜雨 </a>
-<span class="github-src">
-<a href ="https://github.com/minixalpha/minixalpha.github.io"
-target="_blank"
-title="Fork me on GitHub">
-<img src="/assets/images/GitHub-Mark-Light-32px.png" alt="">
-</a>
-</span>
-</h1>
-</div>
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Your awesome title</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/index.html.bak">首页</a>
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
 </header>
-<aside id="left-side">
-<h2> 分类 </h2>
-<ul class="category-list">
-<li>
-<a href="/categories/源代码阅读"> 源代码阅读 (20) </a>
-</li>
-<li>
-<a href="/categories/设计模式"> 设计模式 (3) </a>
-</li>
-<li>
-<a href="/categories/科研"> 科研 (6) </a>
-</li>
-<li>
-<a href="/categories/思想"> 思想 (2) </a>
-</li>
-<li>
-<a href="/categories/技术"> 技术 (18) </a>
-</li>
-<li>
-<a href="/categories/工具"> 工具 (4) </a>
-</li>
-<li>
-<a href="/categories/虚拟机"> 虚拟机 (1) </a>
-</li>
-<li>
-<a href="/categories/java"> java (11) </a>
-</li>
-<li>
-<a href="/categories/c语言"> c语言 (4) </a>
-</li>
-<li>
-<a href="/categories/读书"> 读书 (1) </a>
-</li>
-<li>
-<a href="/categories/操作系统"> 操作系统 (1) </a>
-</li>
-<li>
-<a href="/categories/英语"> 英语 (10) </a>
-</li>
-<li>
-<a href="/categories/计算机系统"> 计算机系统 (3) </a>
-</li>
-<li>
-<a href="/categories/生活"> 生活 (1) </a>
-</li>
-</ul>
-</aside>
-<aside id="right-side">
-<h2> 归档 </h2>
-<ul class="archive-list">
-<li>
-<a href="/2014/08">
-2014-08 (1)
-</a>
-</li>
-<li>
-<a href="/2014/07">
-2014-07 (5)
-</a>
-</li>
-<li>
-<a href="/2014/05">
-2014-05 (12)
-</a>
-</li>
-<li>
-<a href="/2014/04">
-2014-04 (3)
-</a>
-</li>
-<li>
-<a href="/2014/03">
-2014-03 (11)
-</a>
-</li>
-<li>
-<a href="/2014/02">
-2014-02 (6)
-</a>
-</li>
-<li>
-<a href="/2014/01">
-2014-01 (3)
-</a>
-</li>
-<li>
-<a href="/2013/11">
-2013-11 (10)
-</a>
-</li>
-<li>
-<a href="/2013/10">
-2013-10 (3)
-</a>
-</li>
-<li>
-<a href="/2010/09">
-2010-09 (1)
-</a>
-</li>
-</ul>
-</aside>
-<article>
-<ul class="post-list">
-<li>
-<div class="post-title">
-<a href="/%E7%A7%91%E7%A0%94/2014/08/17/java-memory-model.html"> 对 Java 内存模型的理解</a> </br>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="home">
+
+  <h1 class="page-heading">Posts</h1>
+
+  <ul class="post-list">
+    
+      <li>
+        <span class="post-meta">Oct 14, 2015</span>
+
+        <h2>
+          <a class="post-link" href="/jekyll/update/2015/10/14/welcome-to-jekyll.html">Welcome to Jekyll!</a>
+        </h2>
+      </li>
+    
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+
 </div>
-<div class="post-info">
-<ol>
-<li class="post-time">2014-08-17</li>
-<li class="post-category">
-科研
-</li>
-</ol>
-</div>
-<div class="post-preview">
-<h1>对 Java 内存模型的理解</h1>
-<h2>Java 内存模型</h2>
-<p>Java内存模型规定了在多线程程序中，什么样的行为是允许出现的，什么样的行为是禁止出现的。这样说可能有点抽象，我们换一个角度。将程序行为抽象成读操作和写操作，每个线程有自己的局部变量，同时线程之间还存在共享变量。那么一个多线程程序执行结束后，所有变量会有一个最终值。Java内存模型来决定什么样的值合法，什么样的值不合法。</p>
-<p>内存模型不能要求的太严格，这样会阻碍很多优化方法，降低程序执行的效率，但也不能要求的太松，因为这样会导致一些执行结果违反我们的直觉。例如指令间的重排序问题，如果线程内部的指令完全按照程序中指明的次序执行，并且每次执行一条指令，执行的结果立即生效，那么就会阻碍很多优化方法，但这样对程序员是有好处的，因为程序员很容易推断程序的执行结果，这样写出的程序就容易与自己的意图一致。这种内存模型被称为顺序一致性模型(Sequential Consistency)。反之，如果为了优化程序执行效率，重排序的可能性有很多，那么程序的效率是提高了，但对程序员来说，就很难推断程序的执行结果。这一类的内存模型被称为Relaxed Memory Model。</p>
-<a href="/%E7%A7%91%E7%A0%94/2014/08/17/java-memory-model.html"> Read More ... </a> </br>
-</div>
-</li>
-<li>
-<div class="post-title">
-<a href="/%E6%8A%80%E6%9C%AF/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/2014/07/27/singleton.html"> 单例模式</a> </br>
-</div>
-<div class="post-info">
-<ol>
-<li class="post-time">2014-07-27</li>
-<li class="post-category">
-技术&nbsp&nbsp设计模式
-</li>
-</ol>
-</div>
-<div class="post-preview">
-<h1>单例模式</h1>
-<hr>
-<ul>
-<li>定义 </li>
-</ul>
-<p>单例模式确保一个类只有一个实例，并提供一个全局访问点</p>
-<ul>
-<li>解释</li>
-</ul>
-<p>从定义可以看出，特点是这个类只有一个实例。那么，为什么要这么做呢？原因在于，有些时候，这个类只有一个实例会节约资源，或者只有一个实例才能保证整个程序运行正确，一致。例如：线程池，缓存，对话框，日志对象等等 。</p>
-<a href="/%E6%8A%80%E6%9C%AF/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/2014/07/27/singleton.html"> Read More ... </a> </br>
-</div>
-</li>
-<li>
-<div class="post-title">
-<a href="/%E6%8A%80%E6%9C%AF/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/2014/07/27/facade.html"> 外观模式</a> </br>
-</div>
-<div class="post-info">
-<ol>
-<li class="post-time">2014-07-27</li>
-<li class="post-category">
-技术&nbsp&nbsp设计模式
-</li>
-</ol>
-</div>
-<div class="post-preview">
-<h1>外观模式</h1>
-<hr>
-<ul>
-<li>定义 </li>
-</ul>
-<p>外观模式提供了一个统一的接口，用来访问子系统中的一群接口。外观定义了一个高层接口，让子系统的更容易使用。</p>
-<ul>
-<li>解释</li>
-</ul>
-<p>我有一个多功能的盒子，盒子让提供了100个接口，每个都有不同的功能。现在我要把这个盒子给别人用了，我只想让别人用到其中5个接口，或者别人只需要其中5个接口。那么，我可以再做一个盒子，这个盒子套在原来的盒子外面，并且只提供5个接口。这样，用的人会觉得很方便，我也觉得这样很安全。</p>
-<p>我们可能要问，为什么原来的盒子要有100个接口呢？为什么不直接提供5个接口呢？原因可能会很多，可能这个盒子我们没法控制，是别人给我们的。也可能这个盒子要与其它众多盒子配合使用，其它盒子要用到其它的95个接口。</p>
-<a href="/%E6%8A%80%E6%9C%AF/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/2014/07/27/facade.html"> Read More ... </a> </br>
-</div>
-</li>
-<li>
-<div class="post-title">
-<a href="/%E6%8A%80%E6%9C%AF/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/2014/07/25/observer.html"> 观察者模式</a> </br>
-</div>
-<div class="post-info">
-<ol>
-<li class="post-time">2014-07-25</li>
-<li class="post-category">
-技术&nbsp&nbsp设计模式
-</li>
-</ol>
-</div>
-<div class="post-preview">
-<h1>观察者模式</h1>
-<hr>
-<ul>
-<li>定义 </li>
-</ul>
-<p>观察者模式定义了对象之间的一对多依赖，当一个对象改变时，所以依赖于它的对象都会得到通知。</p>
-<a href="/%E6%8A%80%E6%9C%AF/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/2014/07/25/observer.html"> Read More ... </a> </br>
-</div>
-</li>
-<li>
-<div class="post-title">
-<a href="/%E6%8A%80%E6%9C%AF/java/%E6%BA%90%E4%BB%A3%E7%A0%81%E9%98%85%E8%AF%BB/2014/07/12/java-io-write-bytes.html"> OpenJDK 源码阅读之 Java 输入输出(I/O) 之 字节流输出</a> </br>
-</div>
-<div class="post-info">
-<ol>
-<li class="post-time">2014-07-12</li>
-<li class="post-category">
-技术&nbsp&nbspjava&nbsp&nbsp源代码阅读
-</li>
-</ol>
-</div>
-<div class="post-preview">
-<h1>OpenJDK 源码阅读之 Java 输入输出(I/O) 之 字节流输出</h1>
-<p>标签（空格分隔）： 源代码阅读 Java 封神之路</p>
-<a href="/%E6%8A%80%E6%9C%AF/java/%E6%BA%90%E4%BB%A3%E7%A0%81%E9%98%85%E8%AF%BB/2014/07/12/java-io-write-bytes.html"> Read More ... </a> </br>
-</div>
-</li>
-</ul>
-<!-- Pagination links -->
-<div class="pagination">
-<span>&laquo; Prev</span>
-1
-<a href="/page2">2</a>
-<a href="/page3">3</a>
-<a href="/page4">4</a>
-<a href="/page5">5</a>
-<a href="/page6">6</a>
-<a href="/page7">7</a>
-<a href="/page8">8</a>
-<a href="/page9">9</a>
-<a href="/page10">10</a>
-<a href="/page11">11</a>
-<a href="/page2">Next &raquo;</a>
-</div>
-</article>
-<div class="comments">
-</div>
-<footer>
-Copyright (c) minixalpha 2014
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Your awesome title</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>Your awesome title</li>
+          <li><a href="mailto:your-email@domain.com">your-email@domain.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/ubirouting">
+              <span class="icon  icon--github">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+                </svg>
+              </span>
+
+              <span class="username">ubirouting</span>
+            </a>
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/jekyllrb">
+              <span class="icon  icon--twitter">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809
+                  c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/>
+                </svg>
+              </span>
+
+              <span class="username">jekyllrb</span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text">Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</p>
+      </div>
+    </div>
+
+  </div>
+
 </footer>
-</div>
-</body>
+
+
+  </body>
+
 </html>
